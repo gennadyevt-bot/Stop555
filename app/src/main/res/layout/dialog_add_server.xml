@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="20dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Новый сервер"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:textColor="@android:color/black"
+        android:layout_marginBottom="16dp" />
+
+    <EditText
+        android:id="@+id/etName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Название (например: NL-AMS-01)"
+        android:inputType="text" />
+
+    <EditText
+        android:id="@+id/etCountry"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Страна (например: Нидерланды)"
+        android:inputType="text"
+        android:layout_marginTop="8dp" />
+
+    <EditText
+        android:id="@+id/etEndpoint"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Endpoint (IP:порт)"
+        android:inputType="text"
+        android:layout_marginTop="8dp" />
+
+    <EditText
+        android:id="@+id/etPrivateKey"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Приватный ключ"
+        android:inputType="text"
+        android:layout_marginTop="8dp" />
+
+    <EditText
+        android:id="@+id/etPublicKey"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Публичный ключ сервера"
+        android:inputType="text"
+        android:layout_marginTop="8dp" />
+
+</LinearLayout>
